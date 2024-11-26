@@ -1,0 +1,54 @@
+h1 {
+  background-color: green;
+}
+
+p {
+  color: rgb(167, 59, 152);
+}
+
+.welcomeheading {
+  background-color: rgb(17, 10, 1);
+  color: darkorchid;
+}
+.paradescription {
+  background-color: rgb(143, 58, 9);
+  font-size: x-large;
+}
+
+.welcomeheading_2 {
+  background-color: rgb(66, 44, 126);
+  color: rgb(36, 11, 28);
+}
+.paradescription_2 {
+  background-color: rgb(146, 127, 43);
+  font-size: x-large;
+  color: aliceblue;
+}
+
+/*  
+id -1
+classes -2 
+tags -3 
+*/
+
+#welcomeheading {
+  background-color: burlywood;
+  color: darkorchid;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+#paradescription {
+  background-color: aqua;
+  font-size: x-large;
+}
+
+#welcomeheading_2 {
+  background-color: rgb(185, 74, 54);
+  color: rgb(58, 128, 98);
+}
+#paradescription_2 {
+  background-color: rgb(15, 19, 19);
+  font-size: x-large;
+  color: aliceblue;
+}

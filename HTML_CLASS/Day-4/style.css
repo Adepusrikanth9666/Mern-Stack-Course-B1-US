@@ -1,0 +1,12 @@
+.heading {
+  background-color: aquamarine;
+  font-weight: 300;
+}
+
+.paragraph-hover {
+  display: none;
+  position: relative;
+}
+.heading:hover + .paragraph-hover {
+  display: block;
+}
