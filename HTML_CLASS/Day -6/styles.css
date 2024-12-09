@@ -1,0 +1,46 @@
+/* Margin,padding  */
+body {
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/dcl_deskt…ited_d3aa26fd.jpeg?region=0,0,2000,835&width=1536");
+}
+.head-container {
+  background-color: aqua;
+  border: 1px solid #0a0303;
+}
+.product-list {
+  /* margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px; */
+  margin: 20px;
+  border: 5px solid #331380;
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px; */
+  padding: 30px;
+}
+
+.product-description {
+  border: 5px solid #199714;
+  margin: 20px 30px 50px 60px;
+  /* margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 20px; */
+  /* margin: 40px; */
+  /* padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px; */
+  padding: 10px;
+  /* width: 250px; */
+  display: flex;
+  /* flex-direction: column; */
+}
+#para {
+  border: 2px solid red;
+  width: 50px;
+  /* position: relative; */
+}
+#para_1 {
+  border: 5px solid green;
+}

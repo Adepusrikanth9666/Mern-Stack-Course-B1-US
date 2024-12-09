@@ -1,0 +1,49 @@
+/* Descendant combinator (space) - child
+Child combinator (>) - child
+Next sibling combinator (+) - sliblings
+Subsequent-sibling combinator (~) - sliblings*/
+
+/* div p { 
+  background-color: aquamarine;
+} */
+
+/* div > p {
+  background-color: rgb(82, 82, 139);
+  border: 5px solid red;
+} */
+
+/* div + p {
+  background-color: rgb(82, 82, 139);
+  border: 5px solid red;
+  font-size: xx-large;
+} */
+div ~ p {
+  background-color: rgb(82, 82, 139);
+  border: 5px solid red;
+  font-size: xx-large;
+}
+
+/* .container:hover {
+  background-color: aqua;
+} */
+p::first-line {
+  color: rgb(68, 49, 153);
+}
+
+img:hover {
+  height: 50%;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid black;
+}
+
+/* .container p {
+  margin-left: 50%;
+} */
