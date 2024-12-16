@@ -73,7 +73,9 @@ function sayHello(courseName, days, time) {
 
 function updateDom(TodayDate, variable_Name, userInfo) {
   let domValue = window.document.getElementsByClassName("heading_title");
-  domValue[0].innerHTML = `Day-5 Javascript class learning ${TodayDate} ${userInfo} ${variable_Name}`;
+  domValue[0].innerHTML = `Day-5 Javascript class learning ${TodayDate} ${JSON.stringify(
+    userInfo
+  )} ${JSON.stringify(variable_Name)}`;
   console.log(domValue, "domValue");
 }
 
