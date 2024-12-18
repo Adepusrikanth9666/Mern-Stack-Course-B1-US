@@ -1,6 +1,6 @@
 console.log("Heelo day-8 js class");
 
-// Arrays:-
+//Basic array methods:-
 let array = [7, "Srikanth", { name: "a2depu", day: "tuesday" }];
 // let object = { firstName: "Sri", lastName: "Adepu" };
 
@@ -70,7 +70,7 @@ console.log(newArray_1);
 
 let latestArray = [newArray, newArray_1, newArray_2];
 console.log(latestArray);
-// [[newArray],[newArray_1],[newArray_2]]
+// [[[newArray]],[newArray_1],[newArray_2]]
 
 // [newArray,newArray_1,newArray_2]
 
