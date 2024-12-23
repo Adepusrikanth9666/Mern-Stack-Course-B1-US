@@ -32,3 +32,10 @@ Person.prototype.getFullName = getFullName;
 const emp_1 = new Person("Jhon", "Doe", 30, "Up");
 console.log(emp_1.address);
 console.log(emp_1.getFullName("sri", "Adepu"));
+function Person(name) {
+  this.name = name;
+}
+console.log(Person.prototype);
+
+const obj = {};
+console.log(obj.prototype);
