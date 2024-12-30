@@ -1,0 +1,234 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Action",
+      "movies": [
+        {
+          "id": 101,
+          "title": "The Dark Knight",
+          "description": "A crime thriller where Batman battles the Joker.",
+          "releaseYear": 2008,
+          "rating": 9.0,
+          "imageUrl": "https://example.com/images/dark-knight.jpg"
+        },
+        {
+          "id": 102,
+          "title": "Mad Max: Fury Road",
+          "description": "In a post-apocalyptic world, Max teams up with Furiosa.",
+          "releaseYear": 2015,
+          "rating": 8.1,
+          "imageUrl": "https://example.com/images/mad-max.jpg"
+        },
+        {
+          "id": 103,
+          "title": "John Wick",
+          "description": "An ex-hitman seeks revenge for the killing of his dog.",
+          "releaseYear": 2014,
+          "rating": 7.4,
+          "imageUrl": "https://example.com/images/john-wick.jpg"
+        },
+        {
+          "id": 104,
+          "title": "Avengers: Endgame",
+          "description": "The Avengers assemble one last time to undo the damage of Thanos.",
+          "releaseYear": 2019,
+          "rating": 8.4,
+          "imageUrl": "https://example.com/images/endgame.jpg"
+        },
+        {
+          "id": 105,
+          "title": "Gladiator",
+          "description": "A betrayed Roman general seeks vengeance.",
+          "releaseYear": 2000,
+          "rating": 8.5,
+          "imageUrl": "https://example.com/images/gladiator.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Comedy",
+      "movies": [
+        {
+          "id": 201,
+          "title": "The Hangover",
+          "description": "Three friends try to piece together a wild night in Vegas.",
+          "releaseYear": 2009,
+          "rating": 7.7,
+          "imageUrl": "https://example.com/images/hangover.jpg"
+        },
+        {
+          "id": 202,
+          "title": "Superbad",
+          "description": "Two friends navigate their last days of high school.",
+          "releaseYear": 2007,
+          "rating": 7.6,
+          "imageUrl": "https://example.com/images/superbad.jpg"
+        },
+        {
+          "id": 203,
+          "title": "Step Brothers",
+          "description": "Two grown men become stepbrothers and roommates.",
+          "releaseYear": 2008,
+          "rating": 6.9,
+          "imageUrl": "https://example.com/images/step-brothers.jpg"
+        },
+        {
+          "id": 204,
+          "title": "Crazy Rich Asians",
+          "description": "A woman discovers her boyfriend comes from an extremely wealthy family.",
+          "releaseYear": 2018,
+          "rating": 7.0,
+          "imageUrl": "https://example.com/images/crazy-rich-asians.jpg"
+        },
+        {
+          "id": 205,
+          "title": "Borat",
+          "description": "A Kazakh journalist documents his journey through the US.",
+          "releaseYear": 2006,
+          "rating": 7.3,
+          "imageUrl": "https://example.com/images/borat.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Drama",
+      "movies": [
+        {
+          "id": 301,
+          "title": "The Shawshank Redemption",
+          "description": "Two imprisoned men bond over a number of years.",
+          "releaseYear": 1994,
+          "rating": 9.3,
+          "imageUrl": "https://example.com/images/shawshank.jpg"
+        },
+        {
+          "id": 302,
+          "title": "Forrest Gump",
+          "description": "The story of a man with a low IQ and his extraordinary life.",
+          "releaseYear": 1994,
+          "rating": 8.8,
+          "imageUrl": "https://example.com/images/forrest-gump.jpg"
+        },
+        {
+          "id": 303,
+          "title": "Fight Club",
+          "description": "An insomniac office worker creates an underground fight club.",
+          "releaseYear": 1999,
+          "rating": 8.8,
+          "imageUrl": "https://example.com/images/fight-club.jpg"
+        },
+        {
+          "id": 304,
+          "title": "The Godfather",
+          "description": "The aging patriarch of an organized crime dynasty transfers control to his son.",
+          "releaseYear": 1972,
+          "rating": 9.2,
+          "imageUrl": "https://example.com/images/godfather.jpg"
+        },
+        {
+          "id": 305,
+          "title": "The Pursuit of Happyness",
+          "description": "A struggling salesman takes custody of his son as he embarks on a life-changing career journey.",
+          "releaseYear": 2006,
+          "rating": 8.0,
+          "imageUrl": "https://example.com/images/pursuit-of-happyness.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Horror",
+      "movies": [
+        {
+          "id": 401,
+          "title": "Get Out",
+          "description": "A young African-American man uncovers a sinister secret.",
+          "releaseYear": 2017,
+          "rating": 7.7,
+          "imageUrl": "https://example.com/images/get-out.jpg"
+        },
+        {
+          "id": 402,
+          "title": "A Quiet Place",
+          "description": "A family must live in silence to avoid mysterious creatures.",
+          "releaseYear": 2018,
+          "rating": 7.5,
+          "imageUrl": "https://example.com/images/quiet-place.jpg"
+        },
+        {
+          "id": 403,
+          "title": "The Conjuring",
+          "description": "Paranormal investigators help a family terrorized by a dark presence.",
+          "releaseYear": 2013,
+          "rating": 7.5,
+          "imageUrl": "https://example.com/images/conjuring.jpg"
+        },
+        {
+          "id": 404,
+          "title": "Hereditary",
+          "description": "A family uncovers terrifying secrets after their grandmother's death.",
+          "releaseYear": 2018,
+          "rating": 7.3,
+          "imageUrl": "https://example.com/images/hereditary.jpg"
+        },
+        {
+          "id": 405,
+          "title": "It",
+          "description": "A group of kids face their fears and battle an ancient, shape-shifting evil.",
+          "releaseYear": 2017,
+          "rating": 7.4,
+          "imageUrl": "https://example.com/images/it.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sci-Fi",
+      "movies": [
+        {
+          "id": 501,
+          "title": "Inception",
+          "description": "A thief who steals corporate secrets through dream-sharing technology is tasked with planting an idea.",
+          "releaseYear": 2010,
+          "rating": 8.8,
+          "imageUrl": "https://example.com/images/inception.jpg"
+        },
+        {
+          "id": 502,
+          "title": "Interstellar",
+          "description": "A team of explorers travel through a wormhole in space in an attempt to save humanity.",
+          "releaseYear": 2014,
+          "rating": 8.6,
+          "imageUrl": "https://example.com/images/interstellar.jpg"
+        },
+        {
+          "id": 503,
+          "title": "Blade Runner 2049",
+          "description": "A young blade runner discovers a secret that leads him to track down a former blade runner.",
+          "releaseYear": 2017,
+          "rating": 8.0,
+          "imageUrl": "https://example.com/images/blade-runner.jpg"
+        },
+        {
+          "id": 504,
+          "title": "The Matrix",
+          "description": "A computer hacker learns about the true nature of his reality.",
+          "releaseYear": 1999,
+          "rating": 8.7,
+          "imageUrl": "https://example.com/images/matrix.jpg"
+        },
+        {
+          "id": 505,
+          "title": "Dune",
+          "description": "Paul Atreides leads nomadic tribes in a battle to control a desert planet.",
+          "releaseYear": 2021,
+          "rating": 8.0,
+          "imageUrl": "https://example.com/images/dune.jpg"
+        }
+      ]
+    }
+  ]
+}
